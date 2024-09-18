@@ -9,6 +9,10 @@ post - criar
 put - editar vários
 patch - editar um
 delete - deletar
+
+ADMIN 
+-- raphael
+-- dGtQL9nls8X1G8hi
 */
 
 const users = []
