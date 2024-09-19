@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+h1{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #054166;
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+
+  & button {
+    border-radius: 30px;
+    background-color: #07589ef1;
+    height: 45px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease 0.2s;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+
+  & button:hover{
+    opacity: 0.8;
+    scale: 1.01;
+  }
+  
+  & input{
+    border: 1px solid rgb(0, 15, 66);
+    border-radius: 30px;
+    height: 40px;
+    background-color: #023373 ;
+    color: white ;
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #023373;
+  margin: 10px;
+  padding: 12px;
+  width: 400px;
+  border-radius: 10px;
+
+  & p{
+    color: white;
+    font-weight: bold;
+
+    & span{
+      font-weight: normal;
+    }
+  }
+
+  & button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  & button:hover{
+    opacity: 0.5;
+  }
+}
